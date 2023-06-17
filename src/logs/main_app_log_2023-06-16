@@ -1,0 +1,41 @@
+2023-06-16 22:17:02|DEBUG|MainApp|hello_world|Hola soy un log debug
+2023-06-16 22:17:02|INFO|MainApp|hello_world|Hola soy un log info
+2023-06-16 22:17:02|INFO|MainApp|division|Ejecutando division
+2023-06-16 22:17:02|DEBUG|MainApp|division|Dividiendo x:8 / y:2
+2023-06-16 22:17:02|INFO|MainApp|division|Ejecutando division
+2023-06-16 22:17:02|DEBUG|MainApp|division|Dividiendo x:8 / y:0
+2023-06-16 22:17:02|ERROR|MainApp|division|Error: Division por 0
+2023-06-16 22:17:02|ERROR|MainApp|division|Excepcion: Division por 0, mas el traceback
+Traceback (most recent call last):
+  File "/home/alehpineda/Documents/gulag_py_log_demo/src/modulos/operaciones.py", line 21, in division
+    return x/y
+           ~^~
+ZeroDivisionError: division by zero
+2023-06-16 22:17:16|DEBUG|MainApp|hello_world|Hola soy un log debug
+2023-06-16 22:17:16|INFO|MainApp|hello_world|Hola soy un log info
+2023-06-16 22:17:16|INFO|MainApp|division|Ejecutando division
+2023-06-16 22:17:16|DEBUG|MainApp|division|Dividiendo x:8 / y:2
+2023-06-16 22:17:16|INFO|MainApp|division|Ejecutando division
+2023-06-16 22:17:16|DEBUG|MainApp|division|Dividiendo x:8 / y:0
+2023-06-16 22:17:16|ERROR|MainApp|division|Error: Division por 0
+2023-06-16 22:17:16|ERROR|MainApp|division|Excepcion: Division por 0, mas el traceback
+Traceback (most recent call last):
+  File "/home/alehpineda/Documents/gulag_py_log_demo/src/modulos/operaciones.py", line 21, in division
+    return x/y
+           ~^~
+ZeroDivisionError: division by zero
+2023-06-16 22:22:42|DEBUG|MainApp|hello_world|Hola soy un log debug
+2023-06-16 22:22:42|INFO|MainApp|hello_world|Hola soy un log info
+2023-06-16 22:22:42|INFO|MainApp|division|Ejecutando division
+2023-06-16 22:22:42|DEBUG|MainApp|division|Dividiendo x:8 / y:2
+2023-06-16 22:22:42|INFO|MainApp|multiplicacion|Multiplicando 2, 3, 4
+2023-06-16 22:22:42|DEBUG|MainApp|multiplicacion|Resultado 24
+2023-06-16 22:22:42|INFO|MainApp|division|Ejecutando division
+2023-06-16 22:22:42|DEBUG|MainApp|division|Dividiendo x:8 / y:0
+2023-06-16 22:22:42|ERROR|MainApp|division|Error: Division por 0
+2023-06-16 22:22:42|ERROR|MainApp|division|Excepcion: Division por 0, mas el traceback
+Traceback (most recent call last):
+  File "/home/alehpineda/Documents/gulag_py_log_demo/src/modulos/operaciones.py", line 21, in division
+    return x/y
+           ~^~
+ZeroDivisionError: division by zero
