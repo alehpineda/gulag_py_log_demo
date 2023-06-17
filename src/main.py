@@ -5,7 +5,7 @@ from modulos.operaciones import division, multiplicacion
 from utilidades.logger_helper import get_logger
 
 logger = get_logger(
-    log_file=f"logs/main_app_log_{date.today()}",
+    log_file=f"logs/main_app_log_{date.today()}.log",
     log_name="MainApp",
     log_level=logging.DEBUG,
     console_level=logging.DEBUG,
